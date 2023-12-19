@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  height: 48px;
+}
+
+.search {
+  height: 100%;
+  width: 502px;
+  border: 1px solid var(--color-black);
+  border-radius: 8px 0 0 8px;
+  padding: 14px 20px;
+}
+
+.submit {
+  height: 100%;
+  width: 66px;
+  border: 1px solid var(--color-black);
+  border-radius: 0 8px 8px 0;
+  padding: 14px 20px;
+  cursor: pointer;
+}
